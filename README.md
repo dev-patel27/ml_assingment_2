@@ -219,27 +219,6 @@ The app will open at `http://localhost:8501`. Upload `test_data.csv` and select 
 
 > 🌐 **Live App URL:** `https://breast-cancer-classifier-a75uizyebedwoddz7i6cnc-ml-assingment-2.streamlit.app/`
 
-### How to Deploy on Streamlit Community Cloud
-
-1. Push all project files to a **public GitHub repository**.
-2. Visit [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
-3. Click **"New app"** → select your repository → set **Main file:** `app.py`.
-4. Click **"Deploy"**.
-5. The app will build from `requirements.txt` and go live within minutes.
-
-> **Important:** The `model/` directory containing `.joblib` files must be committed to GitHub. Streamlit Cloud uses these pre-trained files — it never retrains models from the uploaded test data.
-
----
-
-## Final Submission Checklist
-
-- [ ] `train.py` runs without errors and produces all `.joblib` files
-- [ ] `app.py` loads models correctly and shows all required metrics
-- [ ] GitHub repository is public with all files committed
-- [ ] Streamlit app is live and accessible via public URL
-- [ ] README contains actual (not fabricated) metrics
-- [ ] `test_data.csv` is committed to the repository
-
 ---
 
 ## References
