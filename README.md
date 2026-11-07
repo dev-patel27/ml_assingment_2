@@ -32,15 +32,13 @@ The objective is to train, evaluate, and compare **five classical machine learni
 ## GitHub Repository
 
 > 🔗 **GitHub Repository URL:** `https://github.com/dev-patel27/ml_assingment_2`
->
-> _(Replace `dev-patel27` with your actual GitHub username after pushing the repository.)_
 
 ---
 
 ## Project Structure
 
 ```
-ML-Assignment-2/
+ml_assignment_2/
 ├── app.py                  # Streamlit web application
 ├── train.py                # Training script (runs all 5 models)
 ├── requirements.txt        # Python dependencies
@@ -219,9 +217,7 @@ The app will open at `http://localhost:8501`. Upload `test_data.csv` and select 
 
 ## Streamlit Deployment
 
-> 🌐 **Live App URL:** `https://<your-app-name>.streamlit.app`
->
-> _(Replace with the actual URL after deploying to Streamlit Community Cloud.)_
+> 🌐 **Live App URL:** `https://breast-cancer-classifier-a75uizyebedwoddz7i6cnc-ml-assingment-2.streamlit.app/`
 
 ### How to Deploy on Streamlit Community Cloud
 
